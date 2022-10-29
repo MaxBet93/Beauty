@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    border-bottom: solid #EFEFEF;
+    width: 55%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    background-color: #E5E5E5;
+}
+.nav{
+    display: block;
+    width: 38%;
+    margin:0 auto;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+
+    padding-top: 17px;
+    padding-bottom: 16px;
+}
+.main-sens{
+    float: left;
+    margin-right: 40px;
+    text-decoration: none;
+    color:#333333;
+}
+.headerline{
+    margin:20px auto;
+    float: left;
+}
+.coll{
+    margin-top: 50px;
+    float: left;
+    margin-right: 40px;
+    text-decoration: none;
+}
+.number{
+    text-decoration: none;
+    color: black;
+}
+.btnmain{
+    margin-top: 40px;
+    float: left;
+}
+.btn{
+    display:block;
+    align-items:center;
+    justify-content: center;
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    border:2px solid #F13C6E;
+    background-color:#FFFFFF;
+}
+.btn{
+    cursor: pointer;
+}
+.headercoll{
+    float: right;
+}
+.header-down{
+    background-image:url(../img/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.header-title{
+    width: 55%;
+    margin: auto;
+    padding-top: 192px;
+    font-size: 48px;
+    color: #ffff;
+    font-weight: 56.25px;
+}
+.header-text{
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color:#ffff;
+    padding-top: 50px;
+    line-height: 20px;
+    width: 55%;
+    margin: auto;
+}
+.header-btn{
+    padding-top: 50px;
+    padding-bottom: 193px;
+    width: 55%;
+    margin: auto;
+}
+.header-button{
+    color:#fff;
+    padding: 13px 47px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid;
+    text-decoration: none;
+    border-radius: 40px;
+}
+.main{
+    background-color:#E5E5E5;
+    padding-bottom: 20px;
+
+}
+.catalogmain{
+    margin: 0 auto;
+    width: 55%;
+}
+.catalog-title{
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom:38px;
+    padding-top: 80px;
+}
+.card{
+    width: 23%;
+    float: left;
+    background-color:#fff;
+    margin-right: 2%;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.img_card{
+    padding-top: 25px;
+}
+.clear{
+    clear: both;
+}
+.card2{
+    float: right;
+    background-color:#fff;
+    width: 23%;
+    text-align: center;
+}
+.card-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 20px;
+}
+.card-price{
+    padding-top: 20px;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+}
+.card-btn{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+}
+.header-button{
+    background-color:#F13C6E;
+}
+.rewiev{
+    margin: 0 auto;
+    width: 55%;
+}
+.bonus{
+    float: left;
+    width: 49%;
+    margin-bottom: 100px;
+    display:block;
+    color: #ffff;
+    align-items:center;
+    padding:35px 45px 35px 35px;
+    background-color:#F13C6E;
+}
+.bonus-main{
+    display: block;
+    float: left;
+}
+.bonus-title{
+    padding-bottom:25px;
+    font-size: 18px;
+    line-height:21,09px;
+    font-weight: 700;
+}
+.bonus-text{
+    line-height: 19.69px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.bonus-image{
+    width: 30%;
+    display: block;
+    float: right;
+}
+.bonus-image2{
+    width: 45%;
+    display: block;
+    float: right;
+}
+.email{
+    margin-top:25px;
+    padding: 9px 25px;
+    border-radius:30px;
+    border: none;
+}
+.bonus2{
+    width: 49%;
+    float: right;
+    color: #ffff;
+    align-items:center;
+    padding:31px 45.33px 35px 40px ;
+    background-color:#F13C6E;
+}
+.var-btn{
+    display: block;
+    margin-top: 25px;
+
+}
+.btn-map{
+    color:#fff;
+    background-color:#F13C6E;
+    border:2px solid #FFFFFF;
+    border-radius: 40px;
+    display: block;
+    cursor: pointer;
+    padding: 9px 33px;
+}
+
+.image{
+    padding: 30px 43px;
+    background-color:#fff;
+    border:1px solid #EFEFEF;
+}
+.rewiev1{
+    margin: 0 auto;
+    width: 55%;
+}
+.rewiev-catalog{
+    width: 25%;
+    float: left;
+}
+.footer{
+    width: 100%;
+}
+.nameblock{
+    padding-right: 156px;
+    margin-right: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EFEFEF;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.nameblock1{
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 156px;
+    padding-bottom: 30px;
+    border-bottom:1px solid #EFEFEF;
+}
+.title-footer{
+    margin:60px auto;
+    width: 55%;
+}
+.title-text{
+    padding-top:25px;
+    display: flex;
+    justify-content: space-between;
+}
+.textblock{
+    font-weight: 400;
+    padding-top: 25px;
+    padding-right: 156px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 12px;
+    color:#828282;
+    line-height: 28px;
+}
+.textblock1{
+    padding-top: 25px;
+    padding-right: 156px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 12px;
+    color:#828282;
+    line-height: 28px;
+
+}
+.footer{
+    float: left;
+    padding-bottom: 30px;
+    border-bottom:1px solid #EFEFEF;
+}
+.block{
+    width: 25%;
+    float: left;
+}
+.headcoll{
+    float: left;
+    margin: 50px 0px;
+}
+.footer-main{
+    margin: auto;
+    width: 55%;
+}
+.link-main{
+    display: block;
+    float: left;
+    margin: 50px 0px;
+}
+.link{
+    padding: 11px;
+    height: 100%;
+    border-radius: 60px;
+}
+.footer-bsm{
+    margin: auto;
+    width: 100%;
+    padding: 25px 0px;
+    font-size: 12px;
+    background-color: #EFEFEF;
+}
+.cont-footer{
+    width: 55%;
+    margin: 0 auto;
+}
+.btnmain1{
+    float: left;
+    margin: 50px 0px;
+}
+.coll1{
+    margin: 58px 0px;
+    float: left;
+    margin-right: 40px;
+    text-decoration: none;
+}
+.bsm-text{
+    float: left;
+    color: #828282;
+}
+.bsm-text2{
+    float: right;
+    color: #828282;
+}
